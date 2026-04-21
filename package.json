@@ -1,0 +1,20 @@
+{
+  "name": "stash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:admin": "turbo run dev --filter=@stash/admin",
+    "dev:backend": "turbo run dev --filter=@stash/backend",
+    "dev:client": "turbo run dev --filter=@stash/client",
+    
+    "build:admin": "turbo run build --filter=@stash/admin",
+    "build:backend": "turbo run build --filter=@stash/backend",
+    "build:client": "turbo run build --filter=@stash/client"
+  },
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3",
+  "devDependencies": {
+    "turbo": "^2.9.6"
+  }
+}

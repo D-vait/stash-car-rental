@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@stash/admin/*": ["./*"],
+      "@shadcn/ui/*": ["../../packages/ui/src/*"]
+    }
+  }
+}

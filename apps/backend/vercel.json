@@ -1,0 +1,20 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "version": 2,
+    "framework": "hono",
+    "buildCommand": "cd ../../ && pnpm build:backend",
+    "outputDirectory": "dist",
+    "regions": ["fra1"],
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api/index.ts"
+        }
+    ],
+    "functions": {
+        "api/index.ts":{
+            "memory": 2048,
+            "maxDuration": 30
+        }
+    }
+}

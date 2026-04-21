@@ -1,0 +1,28 @@
+{
+  "name": "@stash/client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@stash/utils": "workspace:*",
+    "@shadcn/ui": "workspace:*",
+    "next": "16.2.4",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  }
+}
