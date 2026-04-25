@@ -7,12 +7,20 @@
     "start": "node dist/src/server.js"
   },
   "dependencies": {
+    "@better-auth/drizzle-adapter": "^1.6.9",
     "@hono/node-server": "^1.19.14",
     "@stash/utils": "workspace:*",
-    "hono": "^4.12.14"
+    "better-auth": "^1.6.9",
+    "drizzle-orm": "^0.45.2",
+    "drizzle-zod": "^0.8.3",
+    "hono": "^4.12.14",
+    "postgres": "^3.4.9",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/node": "catalog:",
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.31.10",
     "tsc-alias": "^1.8.16",
     "tsx": "^4.7.1",
     "typescript": "catalog:"
